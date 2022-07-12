@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 10vh;
+    background-color: rgb(238, 171, 48);
+    color: rgb(151, 77, 8);
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    height: 70%;
+    margin-left: 15px;
+}
+
+.header h2 {
+    margin-left: 25px;
+}
+
+.header nav {
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+.header nav ul li {
+    padding: 10px;
+    margin: 25px;
+    border: dotted 3.5px rgb(151, 77, 8);
+
+}
+
+.header nav ul li a {
+    color: rgb(151, 77, 8);
+    text-decoration: none;
+
+}
+.header nav ul li a:hover {
+    color: black;
+}
